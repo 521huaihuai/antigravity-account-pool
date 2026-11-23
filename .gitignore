@@ -1,0 +1,19 @@
+# 运行数据（正常情况下位于 %USERPROFILE%\.antigravity-pool，这里做防御性忽略）
+.antigravity-pool/
+profiles/
+cred.dat
+state.json
+
+# 日志与调试产物
+*.log
+/_shot.ps1
+/shot*.png
+/gui*.png
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

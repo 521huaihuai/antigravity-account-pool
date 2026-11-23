@@ -1,0 +1,20 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# Windows PowerShell 5.1 依赖 BOM 识别 UTF-8，缺少 BOM 会导致中文注释被按 ANSI 解析
+[*.ps1]
+charset = utf-8-bom
+
+[*.{md,yml,yaml,json}]
+end_of_line = lf
+indent_size = 2
+
+[*.{cmd,bat}]
+end_of_line = crlf
