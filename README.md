@@ -1,5 +1,9 @@
 # Antigravity 账号池
 
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011-blue.svg)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1-5391FE.svg)
+
 为 **Google Antigravity 桌面版** 提供多账号本地管理与一键切换。
 只做三件事：**备份凭据 → 写回凭据 → 重启客户端**。
 
@@ -67,7 +71,7 @@ Antigravity 桌面版同一时刻只能登录一个 Google 账号。额度用完
 ### 1. 获取代码
 
 ```powershell
-git clone https://github.com/<your-name>/antigravity-account-pool.git
+git clone https://github.com/521huaihuai/antigravity-account-pool.git
 cd antigravity-account-pool
 ```
 
